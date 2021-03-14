@@ -1,0 +1,32 @@
+body{
+	padding: 0;
+	margin: 0;
+	display: grid;
+	place-items: center;
+}
+
+html, body, #map{
+	height: 100%;
+	width: 100%;
+}
+
+#map{
+	position: relative;
+	z-index: 0;
+}
+
+select, button{
+	position: relative;
+	z-index: 800;
+}
+
+select{
+	margin:9px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0);
+	font-size: 1.5em;
+	padding: 1em 5em 1em 1.5em;
+	background: #4d5061;
+	color:white;
+	border:0;
+}
+
